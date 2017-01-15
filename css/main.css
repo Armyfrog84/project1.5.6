@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/****************END RESET**********/
+
+
+nav{
+	background-color: grey;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+}
+
+nav h1{
+	position: absolute;
+	font-size: 3em;
+	padding: 5px;
+}
+nav ul li{
+	position: relative;
+	display: inline;
+	float:right;
+	padding: 9px 35px 0px 15px;
+	font-size: 2em;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+main{
+	padding-top: 60px;
+	padding-left: 20px;
+	
+}
+
+.search {
+	display: inline;
+
+}
+
+.search input{
+	border-radius: 5%;
+	position: relative;
+	margin-top: 50px;
+}
+
+.search img {
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 109px;
+
+}
+
+.results-nav {
+	display: inline;
+	color: black;
+
+}
+
+.results-nav ul {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.results-nav ul li {
+	display: inline-block;
+	border: 1px solid lightgrey;
+
+
+}
+
+.results-nav ul li a {
+	color: black;
+
+}
+
+.before:before {
+	content: "<";
+	padding: 3px;
+}
+
+.after:after{
+	content: ">";
+	padding: 3px;
+}
+
+.results {
+	
+	padding: 0px 20px 20px 20px;
+}
+
+.results a, p{
+	display: inline-block;
+	
+
+}
+
+
+.results a {
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.results p {
+	color: grey;
+}
